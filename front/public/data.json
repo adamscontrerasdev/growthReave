@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Workflow Automation",
+      "title": "Automate repetitive tasks",
+      "description": "We help you streamline internal operations by automating manual workflows like data entry, reporting, and approval chains — saving time and cutting down errors.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "order": 1,
+      "points": ["Internal Task Bots", "100+ Automations"]
+    },
+    {
+      "id": 2,
+      "name": "AI Assistant",
+      "title": "Delegate Daily Tasks",
+      "description": "From managing calendars to drafting emails and summarizing meetings, our AI assistants work around the clock to keep your business running smarter and faster.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "order": 2,
+      "points": ["Summaries", "Scheduling", "Many More"]
+    },
+    {
+      "id": 3,
+      "name": "Sales & Marketing",
+      "title": "Accelerate Sales Growth",
+      "description": "AI tools for lead generation, personalized outreach, and automated content creation that scales your sales efforts and builds stronger brand presence.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "order": 1,
+      "points": ["Leads", "Content", "Social Post"]
+    },
+    {
+      "id": 4,
+      "name": "Cunstom Projects",
+      "title": "Build Smarter Systems",
+      "description": "Whether you're starting from scratch or enhancing an existing system, we offer strategic consulting and develop custom AI projects aligned with your unique goals.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "order": 2,
+      "points": ["Strategy", "Custom AI", "Consulting"]
+    }
+  ]
+}
