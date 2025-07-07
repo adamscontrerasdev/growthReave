@@ -19,7 +19,7 @@ export const OurServices = () => {
       </div>
       <div className="flex flex-col gap-24 md:py-24 w-full items-center ">
         {services.map((service, i) => (
-          <CardOurServices key={service.id} services={service} />
+          <CardOurServices key={i} services={service} />
         ))}
       </div>
     </div>
