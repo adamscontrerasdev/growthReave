@@ -17,7 +17,7 @@ export const Benefit = () => {
           drives business growth with smarter, faster processes.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 p-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 py-10 max-w-7xl">
         {benefits.map((benefit, i) => (
           <CardBenefit key={i} benefit={benefit} />
         ))}

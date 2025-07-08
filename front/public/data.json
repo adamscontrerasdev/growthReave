@@ -69,5 +69,52 @@
       "title": "Scalability & Growth",
       "description": "AI adapts to your business needs, allowing you to scale efficiently without increasing workload or costs."
     }
+  ],
+  "plans": [
+    {
+      "title": "Starter",
+      "price": "1500",
+      "currency": "€",
+      "features": [
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows"
+      ],
+      "RedirectToPay": "https://www.google.com",
+      "icon": "IoIosRocket",
+      "description": "Perfect for small businesses starting with AI automation."
+    },
+    {
+      "title": "Professional",
+      "price": "3500",
+      "currency": "€",
+      "features": [
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows"
+      ],
+      "RedirectToPay": "https://www.google.com",
+      "icon": "AiFillThunderbolt",
+      "description": "Perfect for small businesses starting with AI automation."
+    },
+    {
+      "title": "Enterprise",
+      "price": "Custom",
+      "currency": "€",
+      "features": [
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows",
+        "AI-driven workflows"
+      ],
+      "RedirectToPay": "https://www.google.com",
+      "icon": "FaCrown",
+      "description": "Perfect for small businesses starting with AI automation."
+    }
   ]
 }
