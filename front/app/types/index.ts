@@ -8,6 +8,13 @@ export interface ServiceEntity {
   points: string[];
 }
 
+export interface ProcessEntity {
+  step: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
 export interface BenefitEntity {
   icon: string;
   title: string;

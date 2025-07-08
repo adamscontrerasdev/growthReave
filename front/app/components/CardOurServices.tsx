@@ -33,7 +33,7 @@ export const CardOurServices: React.FC<CardOurServicesProps> = ({
         </h2>
         <p className="text-white/80">{services.description}</p>
 
-        <div className="flex gap-2 justify-center items-center">
+        <div className="flex gap-2 justify-start items-start flex-wrap">
           {services.points.map((point, i) => (
             <h2
               className="px-3 py-1 border border-white/30 rounded-lg bg-neutral-950 

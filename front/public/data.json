@@ -11,30 +11,61 @@
     },
     {
       "id": 2,
-      "name": "AI Assistant",
-      "title": "Delegate Daily Tasks",
-      "description": "From managing calendars to drafting emails and summarizing meetings, our AI assistants work around the clock to keep your business running smarter and faster.",
+      "name": "Digital Channel Optimization",
+      "title": "Improve UX without losing trust",
+      "description": "We refine digital interfaces for users — clear, compliant, and optimized for action.",
       "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
       "order": 2,
-      "points": ["Summaries", "Scheduling", "Many More"]
+      "points": [
+        "Conversion-Focused Interfaces",
+        "Accessibility Standards Ready",
+        "Many More"
+      ]
     },
     {
       "id": 3,
-      "name": "Sales & Marketing",
-      "title": "Accelerate Sales Growth",
-      "description": "AI tools for lead generation, personalized outreach, and automated content creation that scales your sales efforts and builds stronger brand presence.",
+      "name": "Lifecycle Marketing",
+      "title": "Keep clients engaged and informed",
+      "description": "We create segmented communication flows (email & SMS) that guide users through key products and updates.",
       "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
       "order": 1,
-      "points": ["Leads", "Content", "Social Post"]
+      "points": ["Automated Retention Flows", "Product Education Campaigns"]
     },
     {
       "id": 4,
-      "name": "Cunstom Projects",
-      "title": "Build Smarter Systems",
-      "description": "Whether you're starting from scratch or enhancing an existing system, we offer strategic consulting and develop custom AI projects aligned with your unique goals.",
+      "name": "Analytics & Insight Reporting",
+      "title": "Turn usage data into growth decisions",
+      "description": "We build dashboards that track adoption, drop-offs, and engagement across digital products.",
       "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
       "order": 2,
-      "points": ["Strategy", "Custom AI", "Consulting"]
+      "points": ["GA4 + Event Mapping", "Custom KPI Dashboards"]
+    }
+  ],
+
+  "process": [
+    {
+      "step": "1",
+      "title": "Define Goals",
+      "description": "We define clear, measurable, and achievable objectives to align business intent with specific, trackable success metrics.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
+    },
+    {
+      "step": "2",
+      "title": "Map the Strategy",
+      "description": "We design a custom roadmap that aligns your goals with actionable marketing and technology solutions.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
+    },
+    {
+      "step": "3",
+      "title": "Build & Automate",
+      "description": "We develop and implement the systems, content, and automations needed to bring your strategy to life.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
+    },
+    {
+      "step": "4",
+      "title": "Monitor & Optimize",
+      "description": "We continuously measure performance, optimize touchpoints, and iterate to ensure long-term growth.",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
     }
   ],
 
@@ -42,32 +73,32 @@
     {
       "icon": "AiFillThunderbolt",
       "title": "Increased Productivity",
-      "description": "Gain actionable insights with AI-driven analytics to improve decision-making and strategy."
+      "description": "Gain actionable insights with AI-driven analytics to improve decision-making, streamline operations, and execute faster."
     },
     {
-      "icon": "AiFillThunderbolt",
+      "icon": "FaHandshakeSimple",
       "title": "Better Customer Experience",
-      "description": "Personalized AI interactions improve response times, customer engagement, and overall satisfaction."
+      "description": "Personalized AI interactions improve response time, enhance engagement, and elevate satisfaction across every channel"
     },
     {
-      "icon": "AiFillThunderbolt",
+      "icon": "IoTimeOutline",
       "title": "24/7 Availability",
-      "description": "AI-powered systems operate around the clock, ensuring seamless support and execution without downtime."
+      "description": "Our systems operate continuously, providing seamless support and execution — even outside business hours."
     },
     {
-      "icon": "AiFillThunderbolt",
+      "icon": "GiReceiveMoney",
       "title": "Cost Reduction",
-      "description": "AI automation minimizes manual work, cuts operational costs, and optimizes resource allocation for better profitability."
+      "description": "Automation reduces manual tasks, optimizes team efficiency, and significantly cuts recurring operational expenses."
     },
     {
-      "icon": "AiFillThunderbolt",
+      "icon": "IoAnalytics",
       "title": "Data-Driven Insights",
-      "description": "Leverage AI to analyze vast data sets, identify trends, and make smarter, faster, and more accurate business decisions."
+      "description": "Extract hidden value from your data with smart analytics that uncover trends, risks, and growth opportunities."
     },
     {
-      "icon": "AiFillThunderbolt",
+      "icon": "FaAngleDoubleUp",
       "title": "Scalability & Growth",
-      "description": "AI adapts to your business needs, allowing you to scale efficiently without increasing workload or costs."
+      "description": "AI adapts with your company, allowing you to expand services and capacity without scaling your overhead."
     }
   ],
   "plans": [
@@ -77,44 +108,44 @@
       "currency": "€",
       "features": [
         "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows"
+        "Automated data handling",
+        "Task bots for internal ops",
+        "Entry-level integration support",
+        "Performance analytics dashboard"
       ],
       "RedirectToPay": "https://www.google.com",
       "icon": "IoIosRocket",
-      "description": "Perfect for small businesses starting with AI automation."
+      "description": "Perfect for early-stage teams ready to explore automation."
     },
     {
       "title": "Professional",
       "price": "3500",
       "currency": "€",
       "features": [
-        "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows"
+        "Advanced workflow automation",
+        "Custom funnel setup",
+        "CRM + Email/SMS automation",
+        "Mid-tier integration & support",
+        "Dedicated strategy sessions"
       ],
       "RedirectToPay": "https://www.google.com",
       "icon": "AiFillThunderbolt",
-      "description": "Perfect for small businesses starting with AI automation."
+      "description": "Ideal for growing businesses that need robust, tailored automation."
     },
     {
       "title": "Enterprise",
       "price": "Custom",
       "currency": "€",
       "features": [
-        "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows",
-        "AI-driven workflows"
+        "Unlimited workflows & capacity",
+        "Custom AI implementations",
+        "Full-service onboarding & training",
+        "Enterprise-grade integrations",
+        "Ongoing performance reporting"
       ],
       "RedirectToPay": "https://www.google.com",
       "icon": "FaCrown",
-      "description": "Perfect for small businesses starting with AI automation."
+      "description": " For large-scale organizations with complex operations and compliance needs."
     }
   ]
 }

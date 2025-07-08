@@ -10,11 +10,11 @@ export const Pricing = () => {
       </h2>
       <div className="">
         <h1 className="text-center text-4xl md:text-6xl font-bold text-white max-w-4xl">
-          The Best AI Automation, at the Right Price
+          Simple Pricing, Scalable Results
         </h1>
         <p className="text-center text-base md:text-xl font-bold text-white/50 max-w-4xl mt-2">
-          Choose a plan that fits your business needs and start automating with
-          AI
+          Choose the right plan based on your needs. All options include
+          AI-powered automation, expert support, and scalable architecture.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-10 w-full max-w-7xl">

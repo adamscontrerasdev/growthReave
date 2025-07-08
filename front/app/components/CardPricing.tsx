@@ -51,7 +51,7 @@ export const CardPricing: React.FC<CardPricingProps> = ({ pricing }) => {
       <div className="flex flex-col gap-1 ">
         <h2>What is Included:</h2>
         {pricing.features.map((feature, i) => (
-          <p className="flex gap-3 items-center justify-center " key={i}>
+          <p className="flex gap-3 items-center justify-start " key={i}>
             <FaCheck /> {feature}
           </p>
         ))}
