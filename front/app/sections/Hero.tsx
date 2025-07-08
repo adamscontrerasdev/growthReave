@@ -3,7 +3,7 @@ import HeroDecoration from "../elements/HeroDecoration";
 
 export const Hero = () => {
   return (
-    <div className="w-screen h-[100dvh] flex flex-col items-center justify-center bg-gradient-to-b from-black to-transparent gap-5 relative overflow-hidden p-10">
+    <div className="w-screen h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-transparent gap-5 relative overflow-hidden p-10">
       <HeroDecoration />
       <h1 className="text-center text-4xl md:text-6xl font-bold text-white max-w-4xl">
         Revive Your Brand. <br />

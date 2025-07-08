@@ -22,7 +22,7 @@ export const CardPricing: React.FC<CardPricingProps> = ({ pricing }) => {
     <div className="w-full p-5 flex flex-col items-start justify-center gap-6 relative overflow-hidden rounded-xl border border-white/20">
       <div
         className={`bg-[var(--primary)] w-full aspect-square rounded-full ${
-          pricing.title === "Professional" ? "bottom-3/3" : "top-3/3"
+          pricing.title === "Professional" ? "bottom-[90%]" : "top-[90%]"
         } absolute -z-10 blur-3xl`}
       />
       <div className="flex gap-2 justify-center items-center text-2xl font-bold text-white/60">
