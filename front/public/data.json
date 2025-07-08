@@ -36,5 +36,38 @@
       "order": 2,
       "points": ["Strategy", "Custom AI", "Consulting"]
     }
+  ],
+
+  "benefits": [
+    {
+      "icon": "AiFillThunderbolt",
+      "title": "Increased Productivity",
+      "description": "Gain actionable insights with AI-driven analytics to improve decision-making and strategy."
+    },
+    {
+      "icon": "AiFillThunderbolt",
+      "title": "Better Customer Experience",
+      "description": "Personalized AI interactions improve response times, customer engagement, and overall satisfaction."
+    },
+    {
+      "icon": "AiFillThunderbolt",
+      "title": "24/7 Availability",
+      "description": "AI-powered systems operate around the clock, ensuring seamless support and execution without downtime."
+    },
+    {
+      "icon": "AiFillThunderbolt",
+      "title": "Cost Reduction",
+      "description": "AI automation minimizes manual work, cuts operational costs, and optimizes resource allocation for better profitability."
+    },
+    {
+      "icon": "AiFillThunderbolt",
+      "title": "Data-Driven Insights",
+      "description": "Leverage AI to analyze vast data sets, identify trends, and make smarter, faster, and more accurate business decisions."
+    },
+    {
+      "icon": "AiFillThunderbolt",
+      "title": "Scalability & Growth",
+      "description": "AI adapts to your business needs, allowing you to scale efficiently without increasing workload or costs."
+    }
   ]
 }

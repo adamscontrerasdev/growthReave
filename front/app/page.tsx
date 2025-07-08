@@ -1,4 +1,4 @@
-import { Hero, SocialProof, OurServices } from "./sections";
+import { Hero, SocialProof, OurServices, Benefit } from "./sections";
 import { OurProcess } from "./sections/OurProcess";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <SocialProof />
       <OurServices />
       <OurProcess />
+      <Benefit />
     </div>
   );
 }
