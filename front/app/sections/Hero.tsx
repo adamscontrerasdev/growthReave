@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import HeroDecoration from "../elements/HeroDecoration";
 
@@ -15,7 +16,10 @@ export const Hero = () => {
         and performance aligned.{" "}
       </p>
       <div className="flex gap-5 max-w-4xl">
-        <button className="bg-[var(--primary)]  rounded-lg px-8 py-2 font-bold cursor-pointer">
+        <button
+          className="bg-[var(--primary)]  rounded-lg px-8 py-2 font-bold cursor-pointer"
+          onClick={() => (window.location.href = "#pointsProof")}
+        >
           Let&rsquo;s Get Started
         </button>
         {/* <button className="border cursor-pointer border-white/50 text-white rounded-lg px-8 py-2 font-bold">

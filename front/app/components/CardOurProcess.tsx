@@ -15,12 +15,11 @@ const CardOurProcess: React.FC<CardOurProcessProps> = ({ proceso }) => {
         {proceso.title}
       </h2>
       <p className="text-white/80">{proceso.description}</p>
-      <div className="w-full h-full border border-white/30 rounded-lg overflow-hidden">
-        <img
-          src="https://welearndata.com/wp-content/uploads/2023/06/imagen-92-1024x441.png"
-          alt=""
-          className="w-full"
-        />
+      <div
+        className=" w-full h-full border border-white/30 
+      rounded-lg overflow-hidden justify-center items-center flex py-2"
+      >
+        <img src={proceso.image} alt="" className="h-full" />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #8c00c4;
+  --primary: #fff3;
 }
 
 body {
@@ -9,4 +9,9 @@ body {
   background: #010101;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
 }

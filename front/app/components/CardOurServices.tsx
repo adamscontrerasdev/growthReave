@@ -10,21 +10,21 @@ export const CardOurServices: React.FC<CardOurServicesProps> = ({
 }) => {
   return (
     <div
-      className={`flex md:gap-10 max-w-7xl w-full justify-between items-center md:h-96 ${
+      className={`flex md:gap-10 max-w-7xl w-full justify-between items-center md:h-auto ${
         services.order === 1 ? "md:flex-row" : "md:flex-row-reverse"
       } flex-col `}
     >
-      {/* Card izquierda: Imagen */}
-      <div className="md:w-1/2 h-full bg-neutral-900 rounded-lg overflow-hidden flex justify-center items-center">
+      {/* Imagen */}
+      <div className="md:w-1/2 w-full h-auto max-h-[500px] rounded-lg overflow-hidden bg-neutral-900 flex items-center justify-center">
         <img
-          src="https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
-          alt="Workflow"
-          className="w-full"
+          src={services.image}
+          alt={services.title}
+          className="w-full h-auto object-cover"
         />
       </div>
 
-      {/* Card derecha: Texto */}
-      <div className="md:w-1/2 h-full  flex flex-col items-start justify-center gap-3 p-6 ">
+      {/* Texto */}
+      <div className="md:w-1/2 w-full h-full flex flex-col items-start justify-center gap-3 p-6">
         <h2 className="px-3 py-1 border border-white/30 rounded-lg bg-neutral-950 text-sm">
           {services.name}
         </h2>
@@ -36,8 +36,7 @@ export const CardOurServices: React.FC<CardOurServicesProps> = ({
         <div className="flex gap-2 justify-start items-start flex-wrap">
           {services.points.map((point, i) => (
             <h2
-              className="px-3 py-1 border border-white/30 rounded-lg bg-neutral-950 
-              text-sm text-nowrap"
+              className="px-3 py-1 border border-white/30 rounded-lg bg-neutral-950 text-sm whitespace-nowrap"
               key={i}
             >
               {point}

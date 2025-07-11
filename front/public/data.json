@@ -5,16 +5,19 @@
       "name": "Workflow Automation",
       "title": "Automate repetitive tasks",
       "description": "We help you streamline internal operations by automating manual workflows like data entry, reporting, and approval chains — saving time and cutting down errors.",
-      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "image": "/image/Automate repetitive tasks.png",
       "order": 1,
-      "points": ["Internal Task Bots", "100+ Automations"]
+      "points": [
+        "Internal Task Bots",
+        "100+ Automations"
+      ]
     },
     {
       "id": 2,
       "name": "Digital Channel Optimization",
       "title": "Improve UX without losing trust",
       "description": "We refine digital interfaces for users — clear, compliant, and optimized for action.",
-      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "image": "/image/Improve UX without losing trust.png",
       "order": 2,
       "points": [
         "Conversion-Focused Interfaces",
@@ -27,48 +30,52 @@
       "name": "Lifecycle Marketing",
       "title": "Keep clients engaged and informed",
       "description": "We create segmented communication flows (email & SMS) that guide users through key products and updates.",
-      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "image": "/image/Keep clients engaged and informed.png",
       "order": 1,
-      "points": ["Automated Retention Flows", "Product Education Campaigns"]
+      "points": [
+        "Automated Retention Flows",
+        "Product Education Campaigns"
+      ]
     },
     {
       "id": 4,
       "name": "Analytics & Insight Reporting",
       "title": "Turn usage data into growth decisions",
       "description": "We build dashboards that track adoption, drop-offs, and engagement across digital products.",
-      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp",
+      "image": "/image/Turn usage data into growth decisions.png",
       "order": 2,
-      "points": ["GA4 + Event Mapping", "Custom KPI Dashboards"]
+      "points": [
+        "GA4 + Event Mapping",
+        "Custom KPI Dashboards"
+      ]
     }
   ],
-
   "process": [
     {
       "step": "1",
       "title": "Define Goals",
       "description": "We define clear, measurable, and achievable objectives to align business intent with specific, trackable success metrics.",
-      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
+      "image": "/image/Process/step1.png"
     },
     {
       "step": "2",
       "title": "Map the Strategy",
       "description": "We design a custom roadmap that aligns your goals with actionable marketing and technology solutions.",
-      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
+      "image": "/image/Process/step2.png"
     },
     {
       "step": "3",
       "title": "Build & Automate",
       "description": "We develop and implement the systems, content, and automations needed to bring your strategy to life.",
-      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
+      "image": "/image/Process/step3.png"
     },
     {
       "step": "4",
       "title": "Monitor & Optimize",
       "description": "We continuously measure performance, optimize touchpoints, and iterate to ensure long-term growth.",
-      "image": "https://images.ctfassets.net/8aevphvgewt8/6c7chpnM6t8hmLG6AWy2AJ/652974d3eb91ece9774d8773c943dba4/actions-collaborate.webp"
+      "image": "/image/Process/step4.png"
     }
   ],
-
   "benefits": [
     {
       "icon": "AiFillThunderbolt",
@@ -143,7 +150,7 @@
         "Enterprise-grade integrations",
         "Ongoing performance reporting"
       ],
-      "RedirectToPay": "https://www.google.com",
+      "RedirectToPay": "mailto:sales@revivaldream.com?subject=Enterprise%20Budget%20Request",
       "icon": "FaCrown",
       "description": " For large-scale organizations with complex operations and compliance needs."
     }

@@ -41,7 +41,10 @@ export const SocialProof = () => {
   }, [isHovered]);
 
   return (
-    <div className="relative w-full overflow-hidden py-10 max-w-6xl mx-auto">
+    <div
+      className="relative w-full overflow-hidden py-10 max-w-6xl mx-auto"
+      id="pointsProof"
+    >
       <p className="text-center text-base md:text-xl font-bold text-white/60 mb-6">
         Over 50+ businesses trust us because:
       </p>

@@ -1,3 +1,4 @@
+"use client";
 import { IoIosRocket } from "react-icons/io";
 import { FaCheck } from "react-icons/fa6";
 import React from "react";
@@ -45,6 +46,7 @@ export const CardPricing: React.FC<CardPricingProps> = ({ pricing }) => {
             ? "bg-[var(--primary)]"
             : "bg-neutral-950 border border-white/30"
         } text-white rounded-lg px-4 py-2 font-bold w-full cursor-pointer hover:scale-105 transition-all text-wrap`}
+        onClick={() => (window.location.href = pricing.RedirectToPay)}
       >
         {pricing.title === "Enterprise" ? "Contact Us" : "Choose this plan"}
       </button>
