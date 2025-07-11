@@ -1,11 +1,12 @@
 "use client";
 import { IoIosRocket } from "react-icons/io";
 import { FaCheck } from "react-icons/fa6";
-import React from "react";
+import React, { useState } from "react";
 import { PricingEntity } from "../types";
 import { IconType } from "react-icons";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { FaCrown } from "react-icons/fa6";
+import PlanComingSoonModal from "./comingSoonModal";
 
 interface CardPricingProps {
   pricing: PricingEntity;
@@ -19,6 +20,7 @@ const iconsMap: Record<string, IconType> = {
 
 export const CardPricing: React.FC<CardPricingProps> = ({ pricing }) => {
   const Icon = iconsMap[pricing.icon];
+  const [open, setOpen] = useState(false);
   return (
     <div className="w-full p-5 flex flex-col items-start justify-center gap-6 relative overflow-hidden rounded-xl border border-white/20">
       <div
@@ -46,7 +48,11 @@ export const CardPricing: React.FC<CardPricingProps> = ({ pricing }) => {
             ? "bg-[var(--primary)]"
             : "bg-neutral-950 border border-white/30"
         } text-white rounded-lg px-4 py-2 font-bold w-full cursor-pointer hover:scale-105 transition-all text-wrap`}
-        onClick={() => (window.location.href = pricing.RedirectToPay)}
+        onClick={() =>
+          pricing.RedirectToPay === ""
+            ? setOpen(true)
+            : (window.location.href = pricing.RedirectToPay)
+        }
       >
         {pricing.title === "Enterprise" ? "Contact Us" : "Choose this plan"}
       </button>
@@ -63,6 +69,7 @@ export const CardPricing: React.FC<CardPricingProps> = ({ pricing }) => {
           Popular
         </p>
       )}
+      <PlanComingSoonModal onClose={() => setOpen(false)} open={open} />
     </div>
   );
 };

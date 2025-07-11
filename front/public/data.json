@@ -120,7 +120,7 @@
         "Entry-level integration support",
         "Performance analytics dashboard"
       ],
-      "RedirectToPay": "https://www.google.com",
+      "RedirectToPay": "",
       "icon": "IoIosRocket",
       "description": "Perfect for early-stage teams ready to explore automation."
     },
@@ -135,7 +135,7 @@
         "Mid-tier integration & support",
         "Dedicated strategy sessions"
       ],
-      "RedirectToPay": "https://www.google.com",
+      "RedirectToPay": "",
       "icon": "AiFillThunderbolt",
       "description": "Ideal for growing businesses that need robust, tailored automation."
     },
