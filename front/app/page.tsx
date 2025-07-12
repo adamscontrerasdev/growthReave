@@ -15,7 +15,7 @@ export default function Home() {
       <OurServices />
       <OurProcess />
       <Benefit />
-      <Pricing />.
+      <Pricing />
       <Footer />
     </div>
   );
