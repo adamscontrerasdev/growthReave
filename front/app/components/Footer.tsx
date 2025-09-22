@@ -10,8 +10,8 @@ export const Footer = () => {
         {/* Info fiscal */}
         <div>
           <h2 className="text-lg font-semibold mb-1">Revival Dream LLC</h2>
-          <p>30 N Gould St #46731</p>
-          <p>Sheridan, WY, 82801</p>
+          <p>30 N Gould St, Ste R</p>
+          <p>82801, Sheridan, Wyoming</p>
           <p>United States</p>
         </div>
 
